@@ -1,0 +1,65 @@
+Resumo Estruturado do Meu Processo de Testes
+Antes de iniciar qualquer validação, sigo um fluxo lógico para entender o sistema, identificar riscos e planejar testes eficientes. O processo é dividido em etapas que garantem uma visão completa do funcionamento da aplicação:
+
+1. Análise das Stacks Utilizadas
+Primeiro identifico quais tecnologias compõem o projeto (frameworks, linguagens, serviços, libs).
+Isso me ajuda a:
+Entender limitações e possibilidades
+Saber onde podem existir pontos frágeis
+Escolher ferramentas adequadas para teste
+
+2. Compreensão do Funcionamento do Back-End
+Estudo como a lógica da aplicação opera por trás:
+Estrutura das APIs
+Regras de negócio
+Fluxos de autenticação
+Comunicação entre serviços
+Essa visão é essencial para prever erros e entender como os dados fluem.
+
+3. Identificação do Banco de Dados Utilizado
+Verifico o tipo de banco (SQL, NoSQL, cache), modelo de dados e como ele se conecta ao back-end.
+Isso permite:
+Avaliar riscos de desempenho
+Prever gargalos
+Testar cenários que podem gerar inconsistências
+
+4. Investigação de Erros e Bugs no Back-End
+Realizo testes focados no servidor e suas APIs:
+Validação de respostas
+Testes de inconsistência
+Falhas em regras de retorno
+Quebras de fluxo ou erros silenciosos
+Aqui encontro problemas estruturais antes de afetarem o front-end.
+
+5. Busca por Falhas no Front-End
+Valido a interface e suas interações:
+Comportamento dos componentes
+Reatividade
+Layout em diferentes cenários
+Sincronização com o back-end
+Procuro erros de UI, UX e funcionamento.
+
+6. Testes de Estresse
+Executo ações repetitivas para medir a resistência da aplicação:
+Envio contínuo de requisições
+Uso intenso da interface
+Testes com múltiplos usuários simultâneos
+O objetivo é identificar gargalos e instabilidades.
+
+7. Testes de Segurança Essenciais
+Aplicação de checagens práticas de segurança, incluindo:
+Tentativas básicas de DDoS
+Verificação de endpoints sensíveis
+Testes de rotas mal encapsuladas
+Exposição de dados
+Validação de permissões e tokens
+Isso garante que o usuário e o sistema não estejam vulneráveis.
+
+8. Automação de Cenários Estratégicos
+Automatizo cenários selecionados para rodar simultaneamente e avaliar:
+Sobrecarga do back-end
+Excesso de requisições
+Tempo de resposta do front-end
+Impacto no banco de dados
+Comportamento da aplicação sob carga realista
+Esses testes são cruciais para mostrar problemas que só aparecem com uso contínuo e pesado.

@@ -1,0 +1,31 @@
+TASU — Metodologia de Testes (Resumo)
+
+A TASU é uma metodologia de QA projetada para organizar e otimizar processos de testes, garantindo qualidade, segurança e eficiência no desenvolvimento de software.
+Ela se baseia em quatro pilares principais:
+
+🔹 T — Testing Application
+Testes funcionais e não funcionais da aplicação:
+Validação de requisitos
+Testes de fluxo, comportamento e regressão
+Garantia de conformidade com regras de negócio
+
+🔹 A — Automation Process Require
+Automação de testes quando necessário:
+Seleção de cenários automatizáveis
+Suítes de regressão automatizada
+Suporte a automação de API e front-end
+
+🔹 S — Security User Endpoints
+Validação de segurança focada no usuário:
+Testes de API e endpoints
+Autenticação, autorização e permissões
+Verificação de dados sensíveis e boas práticas OWASP
+
+🔹 U — Usually Testing Request / Front-End
+Testes mais comuns do cotidiano de QA:
+Testes de UI/UX
+Testes de requisição (API)
+Validação de componentes e fluxos do usuário
+
+🎯 Objetivo Geral
+Oferecer uma abordagem clara, prática e modular para testes, aumentando cobertura, reduzindo riscos e padronizando a atuação de QA/SDET.
